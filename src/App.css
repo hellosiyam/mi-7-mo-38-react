@@ -17,6 +17,12 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.students {
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid orangered;
+  border-radius: 16px;
+}
 
 @keyframes logo-spin {
   from {
