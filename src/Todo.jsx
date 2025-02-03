@@ -1,6 +1,6 @@
-// export default function Todo({task, isTrue}) {
-//     return <h2>The Work is {task}</h2>
-// }
+export default function Todo({task, isTrue}) {
+    return <h2>The Work is {task}</h2>
+}
 
 // Conditional Rendering : 1
 // export default function Todo({task, isTrue}) {
@@ -40,13 +40,13 @@
 // }
 
 // Conditional Rendering : 6
-export default function Todo({task, isTrue}) {
-    let listItem;
-    if(isTrue){
-        listItem = <li>Finish : {task}</li>
-    }
-    else{
-        listItem = <li>working : {task}</li>
-    }
-    return listItem
-}
+// export default function Todo({task, isTrue}) {
+//     let listItem;
+//     if(isTrue){
+//         listItem = <li>Finish : {task}</li>
+//     }
+//     else{
+//         listItem = <li>working : {task}</li>
+//     }
+//     return listItem
+// }
