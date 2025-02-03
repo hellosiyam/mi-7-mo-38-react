@@ -35,6 +35,18 @@
 // }
 
 // Conditional Rendering : 5
+// export default function Todo({task, isTrue}) {
+//     return <h2>{task} {isTrue || " : Working"}</h2>
+// }
+
+// Conditional Rendering : 6
 export default function Todo({task, isTrue}) {
-    return <h2>{task} {isTrue || " : Working"}</h2>
+    let listItem;
+    if(isTrue){
+        listItem = <li>Finish : {task}</li>
+    }
+    else{
+        listItem = <li>working : {task}</li>
+    }
+    return listItem
 }
